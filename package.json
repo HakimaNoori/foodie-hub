@@ -1,0 +1,31 @@
+{
+  "name": "foodie-hub",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "db:test": "node testConnection.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HakimaNoori/foodie-hub.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HakimaNoori/foodie-hub/issues"
+  },
+  "homepage": "https://github.com/HakimaNoori/foodie-hub#readme",
+  "dependencies": {
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "pg": "^8.16.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
