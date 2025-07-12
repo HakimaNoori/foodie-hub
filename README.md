@@ -1,4 +1,4 @@
-# foodie-hub
+# 🍔🍕🥧🍨 foodie-hub
 Here’s a brief explanation of the EER (Enhanced Entity-Relationship) Diagram for the Foodie Hub project:
 
 📌 Entity Overview:
