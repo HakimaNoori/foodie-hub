@@ -10,12 +10,9 @@ const port = process.env.PORT || 3000;
 
 app.use(express.json());
 
-// ✅ ابتدا این روت تستی رو بذار
 app.get("/", (req, res) => {
   res.send("🎉 Foodie Hub API is running!");
 });
-
-// ✅ بقیه‌ی روت‌ها با مسیرهای مشخص
 app.use("/menus", menuRoutes);
 app.use("/customers", customerRoutes);
 app.use("/orders", orderRoutes);
